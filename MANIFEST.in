@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include paraguay_defaults *.css
+recursive-include paraguay_defaults *.csv
+recursive-include paraguay_defaults *.html
+recursive-include paraguay_defaults *.ico
+recursive-include paraguay_defaults *.js
+recursive-include paraguay_defaults *.json
+recursive-include paraguay_defaults *.md
+recursive-include paraguay_defaults *.png
+recursive-include paraguay_defaults *.py
+recursive-include paraguay_defaults *.svg
+recursive-include paraguay_defaults *.txt
+recursive-exclude paraguay_defaults *.pyc
