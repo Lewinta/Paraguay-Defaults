@@ -1,0 +1,33 @@
+[
+ {
+  "absolute_value": 0,
+  "align_labels_right": 0,
+  "css": "\t.print-format table, .print-format tr, \n\t.print-format td, .print-format div, .print-format p {\n\t\tline-height: 150%;\n\t\tvertical-align: middle;\n\t}\n\t.tbl-items-header{\n\t    border-bottom: 2px solid black;\n\t}\n\t.tbl-items-subtotal {\n\t     border-top: 2px solid black;\n\t}\n\t\n\t.tbl-header, .tbl-items-header, .tbl-items-details, .tbl-items-summary, .tbl-items-subtotal, .tbl-summary{\n\t    font-size: 12px;\n\t}\n\t.tbl-header td, .tbl-items-subtotal td, .tbl-summary td, td.tbl-items-header td {\n\t    padding: 0 !important;\n\t}\n\t.tbl-items-header td {\n\t    font-weight:bold;\n\t}\n\t@media screen {\n\t\t.print-format {\n\t\t\twidth: 4in;\n\t\t\tpadding: 0.25in;\n\t\t\tmin-height: 8in;\n\t\t}\n\t}",
+  "custom_format": 1,
+  "default_print_language": "es-AR",
+  "disabled": 0,
+  "doc_type": "Sales Invoice",
+  "docstatus": 0,
+  "doctype": "Print Format",
+  "font": null,
+  "font_size": 14,
+  "format_data": null,
+  "html": "{{ doc.html_template }}",
+  "line_breaks": 0,
+  "margin_bottom": 15.0,
+  "margin_left": 15.0,
+  "margin_right": 15.0,
+  "margin_top": 15.0,
+  "modified": "2022-04-04 22:12:14.554831",
+  "module": "Paraguay Defaults",
+  "name": "Punto de Venta",
+  "page_number": "Hide",
+  "print_format_builder": 0,
+  "print_format_builder_beta": 0,
+  "print_format_type": "Jinja",
+  "raw_commands": null,
+  "raw_printing": 0,
+  "show_section_headings": 0,
+  "standard": "Yes"
+ }
+]

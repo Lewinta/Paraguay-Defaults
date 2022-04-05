@@ -36,6 +36,20 @@ app_license = "GPT3"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
+# Fixtures
+# ----------
+fixtures = [
+	{
+		"doctype": "Print Format",
+		"filters": {
+			"name": (
+				"in", 
+				"Punto de Venta"
+			)
+		}
+	}
+]
+
 # Home Pages
 # ----------
 
