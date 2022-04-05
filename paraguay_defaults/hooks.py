@@ -59,6 +59,12 @@ app_license = "GPT3"
 # before_install = "paraguay_defaults.install.before_install"
 # after_install = "paraguay_defaults.install.after_install"
 
+# Uninstallation
+# ------------
+
+# before_uninstall = "paraguay_defaults.uninstall.before_uninstall"
+# after_uninstall = "paraguay_defaults.uninstall.after_uninstall"
+
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
@@ -173,3 +179,10 @@ user_data_fields = [
 # 	"paraguay_defaults.auth.validate"
 # ]
 
+# Translation
+# --------------------------------
+
+# Make link fields search translated document names for these DocTypes
+# Recommended only for DocTypes which have limited documents with untranslated names
+# For example: Role, Gender, etc.
+# translated_search_doctypes = []
