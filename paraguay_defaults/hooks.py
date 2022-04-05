@@ -95,13 +95,11 @@ app_license = "GPT3"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		"before_print": "paraguay_defaults.controllers.sales_invoice.before_print",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
