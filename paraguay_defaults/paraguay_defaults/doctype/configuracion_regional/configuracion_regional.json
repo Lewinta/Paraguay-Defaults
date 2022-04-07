@@ -10,7 +10,11 @@
   "timbrado",
   "timbrado_cb",
   "valido_desde",
-  "valido_hasta"
+  "valido_hasta",
+  "plantillas_de_impuestos_section",
+  "plantilla_excenta",
+  "plantilla_10",
+  "plantilla_5"
  ],
  "fields": [
   {
@@ -43,12 +47,38 @@
    "fieldname": "timbrado_sb",
    "fieldtype": "Section Break",
    "label": "Timbrado Nro."
+  },
+  {
+   "fieldname": "plantillas_de_impuestos_section",
+   "fieldtype": "Section Break",
+   "label": "Plantillas de Impuestos"
+  },
+  {
+   "fieldname": "plantilla_excenta",
+   "fieldtype": "Link",
+   "label": "Plantilla Excenta",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plantilla_10",
+   "fieldtype": "Link",
+   "label": "Plantilla 10",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "plantilla_5",
+   "fieldtype": "Link",
+   "label": "Plantilla 5",
+   "options": "Account",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-04-04 23:45:53.402406",
+ "modified": "2022-04-07 00:24:46.193528",
  "modified_by": "Administrator",
  "module": "Paraguay Defaults",
  "name": "Configuracion Regional",
@@ -66,5 +96,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

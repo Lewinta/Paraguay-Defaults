@@ -11,6 +11,14 @@ from paraguay_defaults.client import validate_access
 scope = "Print Format: Sales Invoice"
 
 
+def validate(doc, method=None, settings=None):
+	conf =  frappe.db.get_singles_dict("Configuracion Regional")
+	doc.update({
+		"timbrado": conf.timbrado,
+		"valido_desde": conf.valido_desde,
+		"valido_hasta": conf.valido_hasta,
+	})
+
 def before_print(doc, method=None, settings=None):
 	if validate_access(scope):
 		doc.html_template = get_html_template(doc)

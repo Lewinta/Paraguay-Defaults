@@ -44,7 +44,22 @@ fixtures = [
 		"filters": {
 			"name": (
 				"in", 
-				"Punto de Venta"
+				(
+					"Punto de Venta"
+				)
+			)
+		}
+	},
+	{
+		"doctype": "Custom Field",
+		"filters": {
+			"name": (
+				"in", 
+				(
+					"Sales Invoice-timbrado",
+					"Sales Invoice-valido_desde",
+					"Sales Invoice-valido_hasta"
+				)
 			)
 		}
 	}
@@ -112,6 +127,7 @@ fixtures = [
 doc_events = {
 	"Sales Invoice": {
 		"before_print": "paraguay_defaults.controllers.sales_invoice.before_print",
+		"validate": "paraguay_defaults.controllers.sales_invoice.validate",
 	}
 }
 
