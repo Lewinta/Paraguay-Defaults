@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-03-19 12:34:34.818149",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sucursal",
+  "timbrado",
+  "column_break_3",
+  "valido_desde",
+  "valido_hasta"
+ ],
+ "fields": [
+  {
+   "fieldname": "sucursal",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sucursal",
+   "options": "Cost Center",
+   "reqd": 1
+  },
+  {
+   "fieldname": "timbrado",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Timbrado",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "valido_desde",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Valido Desde",
+   "reqd": 1
+  },
+  {
+   "fieldname": "valido_hasta",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Valido Hasta",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-19 12:34:34.818149",
+ "modified_by": "Administrator",
+ "module": "Paraguay Defaults",
+ "name": "Timbrado por Sucursal",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
