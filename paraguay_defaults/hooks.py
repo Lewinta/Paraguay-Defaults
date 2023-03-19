@@ -86,7 +86,7 @@ fixtures = [
 # ------------
 
 # before_install = "paraguay_defaults.install.before_install"
-# after_install = "paraguay_defaults.install.after_install"
+after_install = "paraguay_defaults.install.after_install"
 
 # Uninstallation
 # ------------
@@ -126,6 +126,7 @@ fixtures = [
 
 doc_events = {
 	"Sales Invoice": {
+		"autoname": "paraguay_defaults.controllers.sales_invoice.autoname",
 		"before_print": "paraguay_defaults.controllers.sales_invoice.before_print",
 		"validate": "paraguay_defaults.controllers.sales_invoice.validate",
 	}

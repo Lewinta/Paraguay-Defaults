@@ -1,0 +1,29 @@
+<div calss="row">
+<div class="col-md-3" style="width: 7.00cm;">
+</div>
+<div class="col-md-4">
+    <div class="" style="padding-left: 7.00cm; float: left;">
+            {{ doc.posting_date }}
+    </div>
+</div>
+<div class="col-md-2">
+    <div class="" style="padding-left: 12.00cm; width: auto;">
+{{ frappe.db.get_value("Customer", doc.customer, "ruc") }}
+    </div>
+</div>
+      
+    <div class="row">
+        <div class="col-md-12" style="padding-left: 9.50cm;">
+        {{doc.customer_name}}
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div style="padding-left: 9.00cm;">
+            {{doc.payment_terms_template}}
+        </div>
+    </div>
+</div>
+<div class="col-md-3">
+    
+</div>

@@ -1,0 +1,30 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2022-08-09 16:05:26.542274",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Membrete",
+ "modified": "2022-08-09 16:20:42.204976",
+ "modified_by": "Administrator",
+ "module": "Paraguay Defaults",
+ "name": "Payment Summary",
+ "owner": "lewin.villar@gmail.com",
+ "prepared_report": 0,
+ "ref_doctype": "Payment Entry",
+ "report_name": "Payment Summary",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ]
+}

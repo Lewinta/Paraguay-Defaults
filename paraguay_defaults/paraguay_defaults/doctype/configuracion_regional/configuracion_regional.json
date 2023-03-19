@@ -7,42 +7,13 @@
  "engine": "InnoDB",
  "field_order": [
   "timbrado_sb",
-  "timbrado",
-  "timbrado_cb",
-  "valido_desde",
-  "valido_hasta",
+  "timbrados",
   "plantillas_de_impuestos_section",
   "plantilla_excenta",
   "plantilla_10",
   "plantilla_5"
  ],
  "fields": [
-  {
-   "bold": 1,
-   "fieldname": "timbrado",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Timbrado",
-   "reqd": 1
-  },
-  {
-   "fieldname": "timbrado_cb",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "valido_desde",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Valido Desde",
-   "reqd": 1
-  },
-  {
-   "fieldname": "valido_hasta",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Valido Hasta",
-   "reqd": 1
-  },
   {
    "fieldname": "timbrado_sb",
    "fieldtype": "Section Break",
@@ -56,6 +27,7 @@
   {
    "fieldname": "plantilla_excenta",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Plantilla Excenta",
    "options": "Account",
    "reqd": 1
@@ -63,9 +35,15 @@
   {
    "fieldname": "plantilla_10",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Plantilla 10",
    "options": "Account",
    "reqd": 1
+  },
+  {
+   "fieldname": "timbrados",
+   "fieldtype": "Table",
+   "options": "Timbrado por Sucursal"
   },
   {
    "fieldname": "plantilla_5",
@@ -78,7 +56,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-04-07 00:24:46.193528",
+ "modified": "2022-04-08 15:48:26.521061",
  "modified_by": "Administrator",
  "module": "Paraguay Defaults",
  "name": "Configuracion Regional",
